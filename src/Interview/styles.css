@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+:root{
+    --primary : red;
+    --secondary: blue;
+}
+
+.primary{
+    color: var(--primary);
+}
+
+.secondary{
+    color: var(--secondary);
+    background-color: aqua;
+    padding: 1rem;
+    margin: 5px;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Italianno', cursive;
+    font-weight: bolder;
+    font-size: 72px;
+    margin-top: 25px;
+}
